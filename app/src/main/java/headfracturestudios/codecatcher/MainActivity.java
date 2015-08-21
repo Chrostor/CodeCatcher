@@ -22,14 +22,15 @@ public class MainActivity extends Activity {
         Button stopButton = (Button) findViewById(R.id.stopButton);
         Button startButton = (Button) findViewById(R.id.startButton);
         boolean threadRunning = false;
-        Thread colorChanger = new Thread();
+        //Thread colorChanger = new Thread();
 
-        startButton.setOnClickListener(new View.OnClickListener() {
+        /*startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
             }
         });
+        */
         stopButton.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
